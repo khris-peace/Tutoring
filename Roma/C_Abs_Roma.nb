@@ -1,0 +1,118 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3413,        110]
+NotebookOptionsPosition[      2706,         89]
+NotebookOutlinePosition[      3116,        105]
+CellTagsIndexPosition[      3073,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Reduce", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     RowBox[{
+      RowBox[{"Abs", "[", 
+       RowBox[{
+        RowBox[{"Abs", "[", 
+         RowBox[{
+          RowBox[{"Abs", "[", 
+           RowBox[{"x", "-", "3"}], "]"}], "-", "1"}], "]"}], "+", "2"}], 
+       "]"}], "-", "3"}], "]"}], "==", "1"}], ",", "x", ",", " ", "Reals"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8793158788549604`*^9, 3.879315882249213*^9}, {
+  3.8793159604663525`*^9, 3.8793160735294156`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"b3019d61-fffa-4e0d-ae13-59eff38d4832"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"x", "\[Equal]", "0"}], "||", 
+  RowBox[{"x", "\[Equal]", "2"}], "||", 
+  RowBox[{"x", "\[Equal]", "4"}], "||", 
+  RowBox[{"x", "\[Equal]", "6"}]}]], "Output",
+ CellChangeTimes->{{3.8793160214637156`*^9, 3.879316075114561*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"be794bbd-615f-477f-90af-871d6e50df30"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Reduce", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     RowBox[{
+      SuperscriptBox["x", "5"], "-", 
+      RowBox[{"6", 
+       SuperscriptBox["x", "2"]}], "+", 
+      RowBox[{"9", "x"}], "-", "6"}], "]"}], "==", 
+    RowBox[{"Abs", "[", 
+     RowBox[{
+      SuperscriptBox["x", "5"], "-", 
+      RowBox[{"2", 
+       SuperscriptBox["x", "3"]}], "+", 
+      RowBox[{"6", 
+       SuperscriptBox["x", "2"]}], "-", 
+      RowBox[{"13", "x"}], "+", "6"}], "]"}]}], ",", "x", ",", " ", "Reals"}],
+   "]"}]], "Input",
+ CellChangeTimes->{{3.8793160941904507`*^9, 3.879316171740797*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"84e2d88c-d9bd-4772-a565-157658525884"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"x", "\[Equal]", "0"}], "||", 
+  RowBox[{"x", "\[Equal]", "1"}], "||", 
+  RowBox[{"x", "\[Equal]", "2"}], "||", 
+  RowBox[{"x", "\[Equal]", "3"}], "||", 
+  RowBox[{"x", "\[Equal]", 
+   RowBox[{"-", 
+    SqrtBox["2"]}]}], "||", 
+  RowBox[{"x", "\[Equal]", 
+   SqrtBox["2"]}]}]], "Output",
+ CellChangeTimes->{3.879316192254182*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"ab462158-f179-4508-b5f0-406fb19066f3"]
+}, Open  ]]
+},
+WindowSize->{569.25, 414.75},
+WindowMargins->{{Automatic, 171}, {-5.25, Automatic}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (August 22, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7bbd854f-49b9-4d48-9d05-19299c3bfc3e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 592, 16, 28, "Input",ExpressionUUID->"b3019d61-fffa-4e0d-ae13-59eff38d4832"],
+Cell[1175, 40, 339, 7, 32, "Output",ExpressionUUID->"be794bbd-615f-477f-90af-871d6e50df30"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1551, 52, 695, 20, 53, "Input",ExpressionUUID->"84e2d88c-d9bd-4772-a565-157658525884"],
+Cell[2249, 74, 441, 12, 56, "Output",ExpressionUUID->"ab462158-f179-4508-b5f0-406fb19066f3"]
+}, Open  ]]
+}
+]
+*)
+
